@@ -9,6 +9,13 @@ rgs = {
     location = "westus"
   }
 
+  rg3 = {
+    name     = "prod-pk3"
+    location = "westus"
+  }
+
+
+
 }
 vnets = {
   vnet1 = {
