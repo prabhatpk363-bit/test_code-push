@@ -92,7 +92,7 @@ security_rules = {
 vms = {
   vm1 = {
     nic_name              = "frontend-nic"
-    location              = "westus"
+    location              = "centralindia"
     rg_name               = "prod-pk1"
     ip_configname         = "internal"
     private_ip_allocation = "Dynamic"
@@ -113,7 +113,7 @@ vms = {
   }
   vm2 = {
     nic_name              = "backend-nic"
-    location              = "westus"
+    location              = "centralindia"
     rg_name               = "prod-pk1"
     ip_configname         = "internal"
     private_ip_allocation = "Dynamic"
