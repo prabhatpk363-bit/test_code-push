@@ -1,4 +1,4 @@
-name: Terraform Azure Pipeline
+name: Terraform CD Pipeline
 
 on:
   push:
