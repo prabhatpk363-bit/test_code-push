@@ -4,17 +4,6 @@ rgs = {
     location = "westus"
   }
 
-  rg2 = {
-    name     = "prod-pk2"
-    location = "westus"
-  }
-
-  rg3 = {
-    name     = "prod-pk3"
-    location = "westus"
-  }
-
-
 
 }
 vnets = {
@@ -103,7 +92,7 @@ security_rules = {
 vms = {
   vm1 = {
     nic_name              = "frontend-nic"
-    location              = "centralindia"
+    location              = "westus"
     rg_name               = "prod-pk1"
     ip_configname         = "internal"
     private_ip_allocation = "Dynamic"
@@ -124,7 +113,7 @@ vms = {
   }
   vm2 = {
     nic_name              = "backend-nic"
-    location              = "centralindia"
+    location              = "westus"
     rg_name               = "prod-pk1"
     ip_configname         = "internal"
     private_ip_allocation = "Dynamic"
