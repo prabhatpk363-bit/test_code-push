@@ -4,8 +4,8 @@ terraform {
       source  = "hashicorp/azurerm"
       version = "4.81.0"
     }
-    }
-    backend "azurerm" {
+  }
+  backend "azurerm" {
     resource_group_name  = "prod-pk"
     storage_account_name = "pkstorage1231"
     container_name       = "pkcontainer1"

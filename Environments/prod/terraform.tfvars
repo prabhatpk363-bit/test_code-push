@@ -58,7 +58,7 @@ subnets = {
 
 nsgs = {
   nsg1 = {
-    nsg_name        = "frontend-nsg"
+    nsg_name    = "frontend-nsg"
     location    = "westus"
     rg_name     = "prod-pk1"
     subnet_name = "frontend-subnet"
